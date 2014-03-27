@@ -45,12 +45,11 @@
         points += 100;
     }else if(points >= 95){
         title = @"Almost There";
-        points += 50;
+        if(points == 99){
+            points += 50;
+        }
     }else if(points >= 80){
-        title = @"Close";
-    }else if(points >= 50){
         title = @"Fine, but...";
-        points -= 25;
     }else{
         title = @"C'mon now";
         points = 0;

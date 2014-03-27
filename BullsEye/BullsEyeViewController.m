@@ -50,7 +50,6 @@
         }
     }else if(points >= 80){
         title = @"Fine, but...";
-        points -= 25;
     }else{
         title = @"C'mon now";
         points = 0;

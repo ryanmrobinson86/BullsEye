@@ -10,6 +10,8 @@
 
 @interface BullsEyeAboutViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIWebView *webview;
+
 - (IBAction)close;
 
 @end

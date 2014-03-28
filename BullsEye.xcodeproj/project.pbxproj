@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		680B585018E4BC0400F6FAD3 /* BullsEyeAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B584F18E4BC0400F6FAD3 /* BullsEyeAboutViewController.m */; };
+		680B585218E4E9A000F6FAD3 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 680B585118E4E9A000F6FAD3 /* BullsEye.html */; };
 		681D563918E399C50042C185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681D563818E399C50042C185 /* Foundation.framework */; };
 		681D563B18E399C50042C185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681D563A18E399C50042C185 /* CoreGraphics.framework */; };
 		681D563D18E399C50042C185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681D563C18E399C50042C185 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		680B584E18E4BC0400F6FAD3 /* BullsEyeAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BullsEyeAboutViewController.h; sourceTree = "<group>"; };
 		680B584F18E4BC0400F6FAD3 /* BullsEyeAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BullsEyeAboutViewController.m; sourceTree = "<group>"; };
+		680B585118E4E9A000F6FAD3 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		681D563518E399C50042C185 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		681D563818E399C50042C185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		681D563A18E399C50042C185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 		681D563E18E399C50042C185 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				680B585118E4E9A000F6FAD3 /* BullsEye.html */,
 				681D564718E399C50042C185 /* BullsEyeAppDelegate.h */,
 				681D564818E399C50042C185 /* BullsEyeAppDelegate.m */,
 				681D564A18E399C50042C185 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				681D565118E399C50042C185 /* Images.xcassets in Resources */,
+				680B585218E4E9A000F6FAD3 /* BullsEye.html in Resources */,
 				681D564318E399C50042C185 /* InfoPlist.strings in Resources */,
 				681D564C18E399C50042C185 /* Main.storyboard in Resources */,
 			);

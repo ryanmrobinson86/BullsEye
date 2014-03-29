@@ -83,9 +83,14 @@
 
 - (IBAction)startOver
 {
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    transition.duration = 1;
+    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     _score = 0;
     _round = 1;
     [self startNewRound];
+    [self.view.layer addAnimation:transition forKey:nil];
 }
 
 - (void)startNewRound
